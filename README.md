@@ -1,1 +1,1 @@
-# first-exercise-
+# first-exercise
