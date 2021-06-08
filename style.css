@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+}
+input{
+    position: relative;
+    left: 350px;
+    top: 400px;
+    width: fit-content;
+    font: 22px bold Tahoma, Arial, sans-serif;
+}
+label{
+position: relative;
+left: 425px;
+top: 360px;
+font: 22px bold Tahoma, Arial, sans-serif;
+
+}
