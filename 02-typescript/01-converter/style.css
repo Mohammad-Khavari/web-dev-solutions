@@ -1,0 +1,21 @@
+body{
+    background-color: aqua;
+}
+input{
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    left: 550px;
+    top: 350px;
+    width: fit-content;
+    height: fit-content;
+    font: 22px bold Tahoma, Arial, sans-serif;
+    
+}
+label{
+position: relative;
+left: 425px;
+top: 375px;
+font: 22px bold Tahoma, Arial, sans-serif;
+
+}
