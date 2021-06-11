@@ -254,14 +254,28 @@ function User(props: UserProps) {
             <p>{props.user.age}</p>
             <p>{props.user.city}</p>
             <p>{props.user.ip}</p>
-            <p>{props.user.isAdmin}</p>
+            <input type="checkbox" checked={props.user.isAdmin}/>
         </article>
     );
     }
+
+
+
+
 function App() {
-    return <div>{
-    users.map(user => <User key={user.id} user={user}/>)}
-    </div>;
+    const kids= users.filter(user => user.age < 18 )
+    const adult= users.filter(user => user.age >= 18 )
+    return <>
+    <section>
+    <p>{
+       adult.map(user => <User key={user.id} user={user}/>)}
+    </p>
+    </section>
+    <section>
+        <p>{kids.map(user => <User key={user.id} user={user}/>)}</p>
+    </section>
+    </>;
+    
 }
 
 
