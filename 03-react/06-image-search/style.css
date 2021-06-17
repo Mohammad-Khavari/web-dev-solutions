@@ -1,0 +1,46 @@
+body {
+	height: 100%;
+	font-size: 1.6em;
+	line-height: 1.5;
+	margin: 0;
+	background: linear-gradient(to left, rgb(204, 136, 136), rgb(65, 124, 182));
+}
+
+main {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	margin-top: 3rem;
+}
+
+button {
+	height: 50px;
+    width: 15rem;
+	border: none;
+	background-color: rgb(189, 185, 185);
+	font-size: inherit;
+	cursor: pointer;
+	border-radius: 0.3em;
+}
+input {
+	height: 50px;
+	width: 20rem;
+	border-radius: 0.3em;
+	font-size: inherit;
+}
+button:hover {
+	background-color: black;
+	color: rgb(252, 247, 247);
+}
+
+li {
+	margin: auto;
+	display:inline-block;
+	width: 50%;
+}
+img {
+height: 10cm;
+width: 15cm;
+margin: 2rem;
+}
