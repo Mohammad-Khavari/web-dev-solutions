@@ -1,0 +1,14 @@
+body {
+	font-size: 1.6em;
+	line-height: 1.5;
+	margin: 0;
+}
+
+main {
+	text-align: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	min-height: 100vh;
+}
