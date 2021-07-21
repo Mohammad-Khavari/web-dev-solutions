@@ -1,0 +1,105 @@
+nav{
+    border-right: 1px solid black;
+    height: 60%;
+    
+}
+section, ul{
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+}
+li{
+    padding: 1rem;
+}
+
+img{
+    
+    height: 5cm;
+    width: 5cm;
+    padding: 1cm;
+    margin: 1rem;
+}
+p{
+    width: 100px;
+    font-size: medium;
+}
+#price{
+    font-size: large;
+    font-weight: bolder;
+}
+.home,#backHome{
+    position: absolute;
+    right: 1%;
+}
+#singleProd{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    
+}
+.description,h2{
+    text-align: justify;
+    width: fit-content;
+}
+#button{
+    position: absolute;
+    right: 45%;
+    top: 20%;
+    background-color: rgb(22, 21, 21);
+    font-size: x-large;
+    color: wheat
+}
+#button:hover{
+    color: red;
+}
+.priceTitle{
+     position: absolute;
+    right: 45%;
+    top: 20%;
+}
+
+
+==========================================
+nav,ul,li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+nav{
+    padding: 2rem;
+    border-right: 1px solid black;
+    height: 80%;
+    width: 30%;
+    margin-right: 5px;
+    font-weight: bolder;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    
+
+}
+img{
+    
+    height: 5cm;
+    width: 5cm;
+   margin: auto;
+}
+.homeArticles{
+    display: flex;
+    background-color: white;
+    width: 100cm;
+    margin-top: 0;
+    
+    
+}
+.articles{
+    margin: auto;
+    padding: auto;
+    width: 5cm;
+    text-align: justify;
+}
+#price{
+    font-weight: bolder;
+    font-style: oblique;
+}
+

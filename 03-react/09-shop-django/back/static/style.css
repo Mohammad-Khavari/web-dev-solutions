@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(216, 212, 212);
+
+}
+main{
+    padding: 20px;
+}
+.container {
+display: grid;
+grid-template-columns: 15em 1fr;
+}
+.homeArticles {
+    background-color: white;
+     list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+img{
+    
+    height: 5cm;
+    width: 5cm;
+   margin: auto;
+}
+.main-nav {
+	display: flex;
+    list-style: none;
+	padding: 0;
+	justify-content: end;
+			}
+.main-nav li {
+		margin: 0 1em;
+}
+nav,a{   
+     font-weight: bolder;
+     text-decoration: none;
+}
+.articles{
+   width: 5cm;
+   margin: 20px;
+   font-size: large;
+   font-style: normal;
+}
+nav{
+  border-right: 1px solid black;
+}
+nav,ul,li{
+    margin-top: 15px;
+    padding: 10px;
+    font-size: large;
+    list-style-type: none;
+}
+#price{
+    font-size: x-large;
+    font-weight: bolder;
+}
+#button{
+    width: 7rem;
+    height: 2.5rem;
+    background-color: rgb(161, 158, 158);
+    font-weight: bolder;   
+}
+#button:hover{
+    background-color: aliceblue;
+    cursor: grab;
+}
+
+
+
+
